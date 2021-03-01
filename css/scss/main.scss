@@ -10,3 +10,39 @@ header {
     width: 8.75rem;
   }
 }
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-collapse {
+  align-items: stretch;
+  color: black;
+  width: 30%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  div:nth-child(1) ul a {
+    color: black;
+  }
+
+  div:nth-child(2) ul a {
+    color: grey;
+  }
+
+  div:nth-child(2) {
+    border-top: 1px solid black;
+  }
+
+  @media (min-width: 768px) {
+    position: relative;
+    width: 100%;
+    margin: 0;
+
+    div:nth-child ul li {
+      margin: 1rem;
+    }
+  }
+}
