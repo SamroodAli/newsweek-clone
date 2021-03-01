@@ -1,15 +1,12 @@
-$primary:red !important;
-
-.bg-primary {
-  background-color: $primary;
-}
-
-a.nav-link {
-  color: black;
-}
+/* No CSS */
+/*# sourceMappingURL=main.css.map */
+$red: #f72210;
 
 header {
-  p {
-    color: white;
+  background-color: $red;
+
+  img {
+    height: 1.25rem;
+    width: 8.75rem;
   }
 }
