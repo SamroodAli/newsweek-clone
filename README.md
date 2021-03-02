@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Newsweek Website
 
-> One paragraph statement about the project.
+>This a clone of the Newsweek website which provides trending stories in America. The various topics are arranged into articles, sections and links leading to more resources.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,9 +10,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Bootstrap
 
 ## Live Demo
 
@@ -27,17 +27,12 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+1. Go to 
+2. Click on the code and copy the HTML code.
+3. Use git bash to clone this repository on your local machine.
+4. Run `git checkout -b your-branch-name`. Make your contributions
+5. Push your branch up to your forked repository
+6. Open a Pull Request with a detailed description of the development branch of the original project for a review
 
 
 
@@ -45,16 +40,13 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@SamroodAli](https://github.com/SamroodAli)
+- LinkedIn: [Samrood Ali](https://www.linkedin.com/in/samrood-ali/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
+- Github: [@Leon-Mbegera](https://github.com/Leon-Mbegera)
+- Linkedin: [leon mbegera](https://www.linkedin.com/in/leon-mbegera-053991174/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
