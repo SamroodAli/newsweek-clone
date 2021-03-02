@@ -8,11 +8,11 @@ header img {
   width: 8.75rem;
 }
 
-.navbar {
+header .navbar {
   padding: 0;
 }
 
-.navbar-collapse {
+header .navbar-collapse {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -24,25 +24,25 @@ header img {
   top: 0;
 }
 
-.navbar-collapse div:nth-child(1) ul a {
+header .navbar-collapse div ul a {
   color: black;
 }
 
-.navbar-collapse div:nth-child(2) ul a {
+header .navbar-collapse div:nth-child(2) ul a {
   color: grey;
 }
 
-.navbar-collapse div:nth-child(2) {
-  border-top: 1px solid black;
+header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
+  color: black;
 }
 
 @media (min-width: 768px) {
-  .navbar-collapse {
+  header .navbar-collapse {
     position: relative;
     width: 100%;
     margin: 0;
   }
-  .navbar-collapse div:nth-child ul li {
+  header .navbar-collapse div:nth-child ul li {
     margin: 1rem;
   }
 }
