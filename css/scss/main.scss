@@ -31,8 +31,23 @@ header {
       color: grey;
     }
 
+    .clip {
+      clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+      background-color: whitesmoke;
+      position: relative;
+      bottom: 1rem;
+    }
+
     div:nth-child(2) ul li:nth-child(1) a {
       color: black;
+    }
+
+    .search {
+      width: 20%;
+    }
+
+    .search input {
+      width: 50%;
     }
 
     @media (min-width: 768px) {
