@@ -52,7 +52,7 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
   color: black;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   header .navbar-collapse {
     position: relative;
     width: 100%;
