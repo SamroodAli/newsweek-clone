@@ -1,0 +1,136 @@
+/* No CSS */
+a {
+  background-color: white;
+  color: grey;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+header {
+  background-color: #f72210;
+}
+
+header .login {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header img {
+  background-color: #f72210;
+  display: block;
+  width: 132px;
+  height: 20px;
+}
+
+header .date {
+  position: relative;
+  top: 1rem;
+}
+
+header .navbar-collapse {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  color: black;
+  width: 40%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+header .navbar-collapse div:nth-child(2) ul a {
+  color: grey;
+}
+
+header .navbar-collapse .clip {
+  -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
+  background-color: white;
+  position: relative;
+  bottom: 1.4rem;
+  margin-right: 1rem;
+}
+
+header .navbar-collapse .search {
+  border-right: 0;
+}
+
+header .navbar-collapse .search input {
+  width: 7vw;
+  margin-right: -1.4rem;
+  border: 0;
+}
+
+header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  header .navbar-collapse {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  header .navbar-collapse div:nth-child ul li {
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header .navbar img {
+    width: 396px;
+    height: 60px;
+  }
+  header .first-nav li {
+    font-weight: bold;
+    border-right: 1px solid #efefef;
+    padding-right: 1rem;
+    margin-top: 10px;
+  }
+  header #expandme div:nth-child(2) ul {
+    position: relative;
+    bottom: 1.45rem;
+    margin-top: 1rem;
+    border-top: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+  }
+}
+
+footer img {
+  width: 12rem;
+}
+
+footer .navlink:hover {
+  color: blue;
+}
+
+footer nav .nav-link {
+  padding: 0 0.4rem;
+  border-right: 1px solid grey;
+  margin-top: 0.4rem;
+}
+
+footer .editions {
+  border-top: 1px solid grey;
+  margin-top: 1rem;
+}
+
+footer i {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  margin: 0 0.2rem;
+}
+
+@media (min-width: 768px) {
+  footer img {
+    width: 15rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

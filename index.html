@@ -2,14 +2,149 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsweek</title>
+  <!-- CSS only Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- project stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+  <header class="container-fluid container-xl pt-lg-2 p-0 text-white">
+    <nav class="navbar navbar-expand-lg pb-lg-3 p-0 p-lg-2">
+      <div class="container-fluid flex-nowrap pb-lg-4">
+        <p class="d-none d-lg-block align-self-end date">Mon, Mar 01, 2021</p>
+        <a href="#" class="nav-brand"><img src="./assets/newsletter.svg" class="ml-2" alt="newsletter"></a>
+        <div class="mt-1">
+          <a href="#" class="btn text-white">
+            <span class="d-none d-md-block fw-bold login">LOGIN</span><i class="fas fa-user d-md-none"></i></a>
+          <a class="btn rounded-pill border-0 bg-warning">SUBSCRIBE &gt;</a>
+          <a class="btn navbar-toggler text-white" data-toggle="collapse" data-target="#expandme">
+            <i class="fas fa-bars"></i>
+          </a>
+
+        </div>
+      </div>
+    </nav>
+    <div class="collapse navbar-collapse d-lg-flex flex-column container-fluid" id="expandme">
+      <div class="row clip">
+        <ul class="navbar-nav first-nav flex-lg-row justify-content-lg-evenly">
+          <li class="nav-item"><a class="nav-link" href="#">U.S</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tech&Science</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Experts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
+          <li class="nav-item search">
+            <form action="#" class="d-flex align-items-center">
+              <input type="search" placeholder="search">
+              <span class="align-self-center">
+                <i class="fas fa-search"></i>
+              </span>
+            </form>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="navbar-nav flex-lg-row justify-content-lg-evenly second-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Joe Biden</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Donald Trump</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Inauguration</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Corona Virus</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Stimulus package</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Vaccine</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Capital riots</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <footer class="container-fluid container-xl mt-5">
+    <div class="row d-flex">
+      <div class="col-md-8 d-md-flex flex-row align-items-end">
+        <a href="https://web.archive.org/web/20210120125445/https://www.newsweek.com/"><img
+            src="./assets/newsletter-footer.svg" alt="newsletter"></a>
+        <p class="m-0 pb-1 pt-2 p-md-0 text-secondary">© 2021 NEWSWEEK DIGITAL LLC
+        </p>
+      </div>
+      <div class="col-md-4">
+        <ul class="nav navbar-nav flex-row flex-nowrap justify-content-end">
+          <li class="nav-item p-2 pb-0 mb-0">
+            <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item p-2 pb-0 mb-0"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="nav-item p-2 pb-0 mb-0"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="nav-item p-2 pb-0 mb-0"><a class="nav-link" href="#"><i class="fab fa-tumblr"></i></a></li>
+          <li class="nav-item p-2 pb-0 mb-0">
+            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="row">
+      <div class="container-fluid">
+        <div>
+          <ul class="nav d-flex flex-wrap editions">
+            <li class="nav-item">
+              <p class="nav-link text-secondary fw-bold">Editions:</p>
+            </li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">U.S Edition</a>
+            </li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">日本</a>
+            </li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Pakistan</a>
+            </li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Polska</a>
+            </li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">România</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="nav d-flex flex-wrap">
+            <li class="nav-item"><a class="nav-link text-muted" href="#">About us</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Corrections</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Editorial guidelines</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Advertise</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Copyright</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Terms and conditions</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Privacy policy</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Cookie policy</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Terms of sale</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Archive</a></li>
+            <li class="nav-item"><a class="nav-link text-muted" href="#">Announcements</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </footer>
+
+
+  <!-- Bootstrap Scripts -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 
 </body>
 
