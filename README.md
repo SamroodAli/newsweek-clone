@@ -4,7 +4,7 @@
 
 >This a clone of the Newsweek website which provides trending stories in America. The various topics are arranged into articles, sections and links leading to more resources.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -18,23 +18,15 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://livedemo.com)
 
+## Requirements
+
+1. Nodejs for the linters and the sass compiler
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-1. Go to 
-2. Click on the code and copy the HTML code.
-3. Use git bash to clone this repository on your local machine.
-4. Run `git checkout -b your-branch-name`. Make your contributions
-5. Push your branch up to your forked repository
-6. Open a Pull Request with a detailed description of the development branch of the original project for a review
-
-
+1. clone the repo
+2. Run npm install
 
 ## Authors
 
