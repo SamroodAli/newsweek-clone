@@ -1,9 +1,28 @@
 /* No CSS */
+a {
+  background-color: white !important;
+  color: grey !important;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue !important;
+}
+
 header {
   background-color: #f72210;
 }
 
+header .login {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 header img {
+  background-color: #f72210;
   display: block;
   width: 132px;
   height: 20px;
@@ -85,6 +104,33 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
     margin-top: 1rem;
     border-top: 2px solid #efefef;
     border-bottom: 2px solid #efefef;
+  }
+}
+
+footer img {
+  width: 12rem;
+}
+
+footer nav .nav-link {
+  padding: 0 0.4rem;
+  border-right: 1px solid grey;
+  margin-top: 0.4rem;
+}
+
+footer .editions {
+  border-top: 1px solid grey;
+  margin-top: 1rem;
+}
+
+footer i {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  margin: 0 0.2rem;
+}
+
+@media (min-width: 768px) {
+  footer img {
+    width: 15rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

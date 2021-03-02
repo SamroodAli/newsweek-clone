@@ -3,10 +3,29 @@
 $red: #f72210;
 $offwhite:#efefef;
 
+a {
+  background-color: white !important;
+  color: grey !important;
+
+  &:visited {
+    color: black;
+  }
+
+  &:hover {
+    color: blue !important;
+  }
+}
+
 header {
   background-color: $red;
 
+  .login {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
   img {
+    background-color: $red;
     display: block;
     width: 132px;
     height: 20px;
@@ -88,6 +107,35 @@ header {
       margin-top: 1rem;
       border-top: 2px solid $offwhite;
       border-bottom: 2px solid $offwhite;
+    }
+  }
+}
+
+// footer styles
+footer {
+  img {
+    width: 12rem;
+  }
+
+  nav .nav-link {
+    padding: 0 0.4rem;
+    border-right: 1px solid grey;
+    margin-top: 0.4rem;
+  }
+
+  .editions {
+    border-top: 1px solid grey;
+    margin-top: 1rem;
+  }
+
+  i {
+    transform: scale(1.5);
+    margin: 0 0.2rem;
+  }
+
+  @media (min-width: 768px) {
+    img {
+      width: 15rem;
     }
   }
 }
