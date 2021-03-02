@@ -3,6 +3,12 @@ header {
   background-color: #f72210;
 }
 
+header img {
+  display: block;
+  width: 132px;
+  height: 20px;
+}
+
 header .navbar {
   padding: 0;
 }
@@ -58,8 +64,9 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
 }
 
 @media (min-width: 992px) {
-  header .navbar-collapse img {
-    height: 100%;
+  header .navbar img {
+    width: 396px;
+    height: 60px;
   }
 }
 /*# sourceMappingURL=main.css.map */

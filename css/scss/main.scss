@@ -5,6 +5,12 @@ $red: #f72210;
 header {
   background-color: $red;
 
+  img {
+    display: block;
+    width: 132px;
+    height: 20px;
+  }
+
   .navbar {
     padding: 0;
   }
@@ -53,11 +59,12 @@ header {
         margin: 1rem;
       }
     }
+  }
 
-    @media (min-width: 992px) {
-      img {
-        height: 100%;
-      }
+  @media (min-width: 992px) {
+    .navbar img {
+      width: 396px;
+      height: 60px;
     }
   }
 }
