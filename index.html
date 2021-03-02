@@ -18,14 +18,14 @@
 
 <body>
   <header class="container-fluid container-xl pt-lg-2 p-0 text-white">
-    <nav class="navbar navbar-expand-lg pb-lg-3">
-      <div class="container-fluid flex-nowrap pb-lg-3">
+    <nav class="navbar navbar-expand-lg pb-lg-3 p-0 p-lg-2">
+      <div class="container-fluid flex-nowrap pb-lg-4">
         <p class="d-none d-lg-block align-self-end date">Mon, Mar 01, 2021</p>
         <a href="#" class="nav-brand"><img src="./assets/newsletter.svg" class="ml-2" alt="newsletter"></a>
         <div class="m-2">
           <button type="button" class="btn text-white">
             <span class="d-none d-md-block">Login</span><i class="fas fa-user d-md-none"></i></button>
-          <button type="button" class="rounded-pill border-0 bg-warning" onclick="">SUBSCRIBE</button>
+          <button type="button" class="rounded-pill border-0 bg-warning" onclick="">SUBSCRIBE &gt;</button>
           <button class="navbar-toggler text-white" data-toggle="collapse" data-target="#expandme" onclick="">
             <i class="fas fa-bars"></i>
           </button>
@@ -48,10 +48,12 @@
           <li class="nav-item"><a class="nav-link" href="#">Experts</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
           <li class="nav-item search">
-            <input type="search" placeholder="search">
-            <span class="align-self-center">
-              <i class="fas fa-search"></i>
-            </span>
+            <form action="#">
+              <input type="search" placeholder="search">
+              <span class="align-self-center">
+                <i class="fas fa-search"></i>
+              </span>
+            </form>
           </li>
         </ul>
       </div>

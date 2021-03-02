@@ -1,6 +1,7 @@
 /* No CSS */
 /*# sourceMappingURL=main.css.map */
 $red: #f72210;
+$offwhite:#efefef;
 
 header {
   background-color: $red;
@@ -15,7 +16,6 @@ header {
     position: relative;
     top: 1rem;
   }
-
 
   .navbar-collapse {
     align-items: stretch;
@@ -36,7 +36,7 @@ header {
 
     .clip {
       clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
-      background-color: #fff;
+      background-color: white;
       position: relative;
       bottom: 1.4rem;
       margin-right: 1rem;
@@ -77,7 +77,7 @@ header {
     .first-nav {
       li {
         font-weight: bold;
-        border-right: 1px solid #efefef;
+        border-right: 1px solid $offwhite;
         padding-right: 1rem;
         margin-top: 10px;
       }
@@ -87,8 +87,8 @@ header {
       position: relative;
       bottom: 1.45rem;
       margin-top: 1rem;
-      border-top: 2px solid #efefef;
-      border-bottom: 2px solid #efefef;
+      border-top: 2px solid $offwhite;
+      border-bottom: 2px solid $offwhite;
     }
   }
 }

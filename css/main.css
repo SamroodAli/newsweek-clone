@@ -37,7 +37,7 @@ header .navbar-collapse div:nth-child(2) ul a {
 header .navbar-collapse .clip {
   -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
           clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
-  background-color: #fff;
+  background-color: white;
   position: relative;
   bottom: 1.4rem;
   margin-right: 1rem;
