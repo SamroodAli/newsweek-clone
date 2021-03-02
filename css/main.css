@@ -1,7 +1,7 @@
 /* No CSS */
 a {
-  background-color: white !important;
-  color: grey !important;
+  background-color: white;
+  color: grey;
 }
 
 a:visited {
@@ -9,7 +9,7 @@ a:visited {
 }
 
 a:hover {
-  color: blue !important;
+  color: red;
 }
 
 header {
@@ -43,10 +43,6 @@ header .navbar-collapse {
   position: absolute;
   right: 0;
   top: 0;
-}
-
-header .navbar-collapse div ul a {
-  color: black;
 }
 
 header .navbar-collapse div:nth-child(2) ul a {
@@ -109,6 +105,10 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
 
 footer img {
   width: 12rem;
+}
+
+footer .navlink:hover {
+  color: blue;
 }
 
 footer nav .nav-link {

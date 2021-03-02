@@ -3,15 +3,15 @@ $red: #f72210;
 $offwhite:#efefef;
 
 a {
-  background-color: white !important;
-  color: grey !important;
+  background-color: white;
+  color: grey;
 
   &:visited {
     color: black;
   }
 
   &:hover {
-    color: blue !important;
+    color: red;
   }
 }
 
@@ -43,10 +43,6 @@ header {
     position: absolute;
     right: 0;
     top: 0;
-
-    div ul a {
-      color: black;
-    }
 
     div:nth-child(2) ul a {
       color: grey;
@@ -114,6 +110,10 @@ header {
 footer {
   img {
     width: 12rem;
+  }
+
+  .navlink:hover {
+    color: blue;
   }
 
   nav .nav-link {
