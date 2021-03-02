@@ -14,10 +14,6 @@ header .date {
   top: 1rem;
 }
 
-header .navbar {
-  padding: 0;
-}
-
 header .navbar-collapse {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
@@ -47,6 +43,10 @@ header .navbar-collapse .clip {
   margin-right: 1rem;
 }
 
+header .navbar-collapse .search {
+  border-right: 0;
+}
+
 header .navbar-collapse .search input {
   width: 7vw;
   margin-right: -1.4rem;
@@ -73,6 +73,19 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
   header .navbar img {
     width: 396px;
     height: 60px;
+  }
+  header .first-nav li {
+    font-weight: bold;
+    border-right: 1px solid #efefef;
+    padding-right: 1rem;
+    margin-top: 10px;
+  }
+  header #expandme div:nth-child(2) ul {
+    position: relative;
+    bottom: 1.45rem;
+    margin-top: 1rem;
+    border-top: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
   }
 }
 /*# sourceMappingURL=main.css.map */

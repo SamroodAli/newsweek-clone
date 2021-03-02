@@ -16,9 +16,6 @@ header {
     top: 1rem;
   }
 
-  .navbar {
-    padding: 0;
-  }
 
   .navbar-collapse {
     align-items: stretch;
@@ -43,6 +40,10 @@ header {
       position: relative;
       bottom: 1.4rem;
       margin-right: 1rem;
+    }
+
+    .search {
+      border-right: 0;
     }
 
     .search input {
@@ -71,6 +72,23 @@ header {
     .navbar img {
       width: 396px;
       height: 60px;
+    }
+
+    .first-nav {
+      li {
+        font-weight: bold;
+        border-right: 1px solid #efefef;
+        padding-right: 1rem;
+        margin-top: 10px;
+      }
+    }
+
+    #expandme div:nth-child(2) ul {
+      position: relative;
+      bottom: 1.45rem;
+      margin-top: 1rem;
+      border-top: 2px solid #efefef;
+      border-bottom: 2px solid #efefef;
     }
   }
 }
