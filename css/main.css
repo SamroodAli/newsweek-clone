@@ -3,11 +3,6 @@ header {
   background-color: #f72210;
 }
 
-header img {
-  height: 1.25rem;
-  width: 8.75rem;
-}
-
 header .navbar {
   padding: 0;
 }
@@ -42,7 +37,7 @@ header .navbar-collapse .clip {
 }
 
 header .navbar-collapse .search input {
-  width: 100px;
+  width: 5vw;
   border: 0;
   height: 100%;
 }
@@ -59,6 +54,12 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
   }
   header .navbar-collapse div:nth-child ul li {
     margin: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header .navbar-collapse img {
+    height: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
