@@ -23,12 +23,12 @@
         <p class="d-none d-lg-block align-self-end date">Mon, Mar 01, 2021</p>
         <a href="#" class="nav-brand"><img src="./assets/newsletter.svg" class="ml-2" alt="newsletter"></a>
         <div class="mt-1">
-          <button type="button" class="btn text-white">
-            <span class="d-none d-md-block font-weight-bold">Login</span><i class="fas fa-user d-md-none"></i></button>
-          <button type="button" class="rounded-pill border-0 bg-warning" onclick="">SUBSCRIBE &gt;</button>
-          <button class="navbar-toggler text-white" data-toggle="collapse" data-target="#expandme" onclick="">
+          <a href="#" class="btn text-white">
+            <span class="d-none d-md-block fw-bold login">LOGIN</span><i class="fas fa-user d-md-none"></i></a>
+          <a class="btn rounded-pill border-0 bg-warning">SUBSCRIBE &gt;</a>
+          <a class="btn navbar-toggler text-white" data-toggle="collapse" data-target="#expandme">
             <i class="fas fa-bars"></i>
-          </button>
+          </a>
 
         </div>
       </div>
@@ -155,42 +155,34 @@
   </main>
 
   <footer class="container-fluid container-xl mt-5">
-    <div class="row">
-      <div class="col-md-8 row">
-        <div class="col-md-3">
-          <a href="https://web.archive.org/web/20210120125445/https://www.newsweek.com/"><img
-              src="./assets/newsletter-footer.svg" alt="newsletter"></a>
-        </div>
-        <div class="col-md-9">
-          <p class="align-text-bottom text-bottom">© 2021 NEWSWEEK DIGITAL LLC
-          </p>
-        </div>
+    <div class="row d-flex">
+      <div class="col-md-8 d-md-flex flex-row align-items-end">
+        <a href="https://web.archive.org/web/20210120125445/https://www.newsweek.com/"><img
+            src="./assets/newsletter-footer.svg" alt="newsletter"></a>
+        <p class="m-0 pb-1 pt-2 p-md-0 text-secondary">© 2021 NEWSWEEK DIGITAL LLC
+        </p>
       </div>
       <div class="col-md-4">
-        <button class="btn btn-secondary">
-          <i class="fab fa-facebook-square"></i>
-        </button>
-        <button class="btn btn-secondary">
-          <i class="fab fa-twitter"></i>
-        </button>
-        <button class="btn btn-secondary">
-          <i class="fab fa-instagram"></i>
-        </button>
-        <button class="btn btn-secondary">
-          <i class="fab fa-tumblr"></i>
-        </button>
-        <button class="btn btn-secondary">
-          <i class="fab fa-linkedin"></i>
-        </button>
+        <ul class="nav navbar-nav flex-row flex-nowrap justify-content-end">
+          <li class="nav-item p-2 pb-0 mb-0">
+            <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item p-2 pb-0 mb-0"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="nav-item p-2 pb-0 mb-0"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="nav-item p-2 pb-0 mb-0"><a class="nav-link" href="#"><i class="fab fa-tumblr"></i></a></li>
+          <li class="nav-item p-2 pb-0 mb-0">
+            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
-    <nav class="row ">
+    <nav class="row">
       <div class="container-fluid">
-        <label>
-          <strong>Editions:</strong>
-        </label>
-        <div class="container-fluid">
-          <ul class="nav d-flex flex-wrap">
+        <div>
+          <ul class="nav d-flex flex-wrap editions">
+            <li class="nav-item">
+              <p class="nav-link text-secondary fw-bold">Editions:</p>
+            </li>
             <li class="nav-item"><a class="nav-link text-muted" href="#">U.S Edition</a>
             </li>
             <li class="nav-item"><a class="nav-link text-muted" href="#">日本</a>
@@ -203,7 +195,7 @@
             </li>
           </ul>
         </div>
-        <div class="container-fluid">
+        <div>
           <ul class="nav d-flex flex-wrap">
             <li class="nav-item"><a class="nav-link text-muted" href="#">About us</a></li>
             <li class="nav-item"><a class="nav-link text-muted" href="#">Corrections</a></li>
@@ -227,14 +219,14 @@
   <!-- Bootstrap Scripts -->
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 
 </body>
 
