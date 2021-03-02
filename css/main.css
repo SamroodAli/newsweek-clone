@@ -134,33 +134,16 @@ footer i {
   }
 }
 
-main {
-  section-align-self: flex-start;
-}
-
 main img {
   max-width: 100%;
-}
-
-main div section {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  max-height: 100%;
 }
 
 @media (min-width: 768px) {
-  main div section {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-  }
-}
-
-@media (min-width: 992px) {
-  main div section {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 33%;
-            flex: 0 0 33%;
+  main .sponsor {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
