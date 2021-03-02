@@ -1,13 +1,49 @@
-.bg-primary {
-  background-color: red !important;
+/* No CSS */
+header {
+  background-color: #f72210;
 }
 
-a.nav-link {
+header img {
+  height: 1.25rem;
+  width: 8.75rem;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-collapse {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  color: black;
+  width: 40%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navbar-collapse div:nth-child(1) ul a {
   color: black;
 }
 
-header p {
-  color: white;
+.navbar-collapse div:nth-child(2) ul a {
+  color: grey;
 }
 
+.navbar-collapse div:nth-child(2) {
+  border-top: 1px solid black;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  .navbar-collapse div:nth-child ul li {
+    margin: 1rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
