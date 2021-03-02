@@ -9,40 +9,47 @@ header {
     height: 1.25rem;
     width: 8.75rem;
   }
-}
 
-.navbar {
-  padding: 0;
-}
+  .navbar {
+    padding: 0;
+  }
 
-.navbar-collapse {
-  align-items: stretch;
-  color: black;
-  width: 40%;
-  background-color: white;
-  position: absolute;
-  right: 0;
-  top: 0;
-
-  div:nth-child(1) ul a {
+  .navbar-collapse {
+    align-items: stretch;
     color: black;
-  }
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
 
-  div:nth-child(2) ul a {
-    color: grey;
-  }
+    div:nth-child(1) ul a {
+      color: black;
+    }
 
-  div:nth-child(2) {
-    border-top: 1px solid black;
-  }
+    div:nth-child(2) ul a {
+      color: grey;
+    }
 
-  @media (min-width: 768px) {
-    position: relative;
-    width: 100%;
-    margin: 0;
+    div:nth-child(2) {
+      border-top: 1px solid black;
+    }
 
-    div:nth-child ul li {
-      margin: 1rem;
+    @media (min-width: 768px) {
+      position: relative;
+      width: 100%;
+      margin: 0;
+
+      div:nth-child ul li {
+        margin: 1rem;
+      }
     }
   }
+
+
+
+
+
+
+
 }
