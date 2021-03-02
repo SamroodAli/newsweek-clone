@@ -33,23 +33,22 @@ header .navbar-collapse div:nth-child(2) ul a {
 }
 
 header .navbar-collapse .clip {
-  -webkit-clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
-  background-color: whitesmoke;
+  -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
+  background-color: #fff;
   position: relative;
   bottom: 1rem;
+  margin-right: 1rem;
+}
+
+header .navbar-collapse .search input {
+  width: 100px;
+  border: 0;
+  height: 100%;
 }
 
 header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
   color: black;
-}
-
-header .navbar-collapse .search {
-  width: 20%;
-}
-
-header .navbar-collapse .search input {
-  width: 50%;
 }
 
 @media (min-width: 768px) {

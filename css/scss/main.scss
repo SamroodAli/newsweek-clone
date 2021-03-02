@@ -32,23 +32,23 @@ header {
     }
 
     .clip {
-      clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
-      background-color: whitesmoke;
+      clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
+      background-color: #fff;
       position: relative;
       bottom: 1rem;
+      margin-right: 1rem;
+    }
+
+    .search input {
+      width: 100px;
+      border: 0;
+      height: 100%;
     }
 
     div:nth-child(2) ul li:nth-child(1) a {
       color: black;
     }
 
-    .search {
-      width: 20%;
-    }
-
-    .search input {
-      width: 50%;
-    }
 
     @media (min-width: 768px) {
       position: relative;
