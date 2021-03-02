@@ -11,6 +11,11 @@ header {
     height: 20px;
   }
 
+  .date {
+    position: relative;
+    top: 1rem;
+  }
+
   .navbar {
     padding: 0;
   }
@@ -36,12 +41,13 @@ header {
       clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
       background-color: #fff;
       position: relative;
-      bottom: 1rem;
+      bottom: 1.4rem;
       margin-right: 1rem;
     }
 
     .search input {
-      width: 5vw;
+      width: 7vw;
+      margin-right: -1.4rem;
       border: 0;
       height: 100%;
     }
