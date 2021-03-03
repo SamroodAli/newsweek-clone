@@ -140,22 +140,18 @@ main img {
   max-height: 100%;
 }
 
+main .more-stories-img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-right: 11px;
+}
+
 @media (min-width: 768px) {
   main .sponsor {
     max-width: 40%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-
-@media (max-width: 1200px) {
-  .more-stories-img {
-    width: 100px;
-    height: 100px;
-    float: left;
-    padding-right: 10px;
-    
-
   }
 }
 /*# sourceMappingURL=main.css.map */
