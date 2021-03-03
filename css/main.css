@@ -188,9 +188,9 @@ main .vs {
   height: 1.8rem;
   color: white;
   text-align: center;
-  top: 47%;
+  top: 50%;
   position: absolute;
-  left: 42%;
+  left: 46%;
 }
 
 main .more-stories-img {
@@ -206,7 +206,7 @@ main .opinion img {
 }
 
 main section.debate .debate-article-1 {
-  margin: 2px;
+  margin-bottom: 2px;
 }
 
 main .sponsored-insights {
