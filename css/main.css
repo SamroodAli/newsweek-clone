@@ -33,6 +33,11 @@ a:hover {
   margin: 0;
 }
 
+h2 {
+  color: grey;
+  font-size: 1rem;
+}
+
 header {
   background-color: #f72210;
 }
