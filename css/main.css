@@ -177,6 +177,41 @@ main h3 {
   color: #000;
 }
 
+main .signup {
+  background-color: #f4f5f69f;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  main .signup {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+main .signup * {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+main .signup-n {
+  color: white;
+  background: #f72210;
+  font-size: 1rem;
+  width: 2rem;
+}
+
+main .form-submit {
+  background-color: #f72210;
+  border: none;
+}
+
+main .email-submit {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+}
+
 main .top-story h2 {
   color: black;
   font-size: 1.5rem;
