@@ -6,7 +6,11 @@ $offwhite:#efefef;
 $blue:#70a2f1;
 
 .red {
-  color: $red;
+  color: whitesmoke;
+}
+
+* {
+  border-color: #ccd8e3;
 }
 
 a {
@@ -163,9 +167,6 @@ footer {
 }
 
 main {
-
-  h1 {}
-
   h2 {
     color: grey;
     font-size: 1rem;
@@ -202,7 +203,7 @@ main {
     height: 1.8rem;
     color: white;
     text-align: center;
-    top: 50%;
+    top: 48%;
     position: absolute;
     left: 46%;
   }

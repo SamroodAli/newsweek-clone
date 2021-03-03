@@ -1,6 +1,10 @@
 /* No CSS */
 .red {
-  color: #f72210;
+  color: whitesmoke;
+}
+
+* {
+  border-color: #ccd8e3;
 }
 
 a {
@@ -188,7 +192,7 @@ main .vs {
   height: 1.8rem;
   color: white;
   text-align: center;
-  top: 50%;
+  top: 48%;
   position: absolute;
   left: 46%;
 }
