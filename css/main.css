@@ -20,6 +20,19 @@ a:hover {
   float: right;
 }
 
+.relative {
+  position: relative;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 2rem;
+  background-color: grey;
+  margin: 0;
+}
+
 header {
   background-color: #f72210;
 }
