@@ -17,6 +17,14 @@ a {
   }
 }
 
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
 header {
   background-color: $red;
 
@@ -155,12 +163,15 @@ main {
     padding-right: 11px;
   }
 
-  @media(min-width: 768px) {
-    .sponsor {
-      max-width: 40%;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .debate img,
+  .opinion img {
+    width: 4rem;
   }
 
+  @media (min-width: 768px) and (max-width: 992px) {
+    .sponsor {
+      max-width: 40%;
+      margin: 0 auto;
+    }
+  }
 }

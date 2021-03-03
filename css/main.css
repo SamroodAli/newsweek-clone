@@ -12,6 +12,14 @@ a:hover {
   color: red;
 }
 
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
 header {
   background-color: #f72210;
 }
@@ -147,11 +155,15 @@ main .more-stories-img {
   padding-right: 11px;
 }
 
-@media (min-width: 768px) {
+main .debate img,
+main .opinion img {
+  width: 4rem;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
   main .sponsor {
     max-width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
