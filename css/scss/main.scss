@@ -7,6 +7,7 @@ $offwhite:#efefef;
 a {
   background-color: white;
   color: grey;
+  text-decoration: none;
 
   &:visited {
     color: black;
@@ -38,12 +39,21 @@ a {
   margin: 0;
 }
 
-// h2 styling
+// general heading styling
+
+h1 {
+  font-size: 1.5rem;
+}
+
+
 h2 {
   color: grey;
   font-size: 1rem;
 }
 
+h3 {
+  font-size: 1.25rem;
+}
 
 header {
   background-color: $red;
