@@ -2,6 +2,7 @@
 a {
   background-color: white;
   color: grey;
+  text-decoration: none;
 }
 
 a:visited {
@@ -10,14 +11,6 @@ a:visited {
 
 a:hover {
   color: red;
-}
-
-.fl-left {
-  float: left;
-}
-
-.fl-right {
-  float: right;
 }
 
 .relative {
@@ -164,6 +157,30 @@ footer i {
   footer img {
     width: 15rem;
   }
+}
+
+main h2 {
+  color: grey;
+  font-size: 1rem;
+}
+
+main h2 .block-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  color: #03030369;
+}
+
+main h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+main p.summary {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  line-height: 1.2rem;
 }
 
 main img {
