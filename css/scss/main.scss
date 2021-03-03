@@ -31,15 +31,6 @@ a {
     margin: 0;
   }
 
-  .sponsored-insights {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 2px 5px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: blue;
-    margin: 0;
-  }
 }
 
 // general heading styling
@@ -215,6 +206,13 @@ main {
     .debate-article-1 {
       margin: 2px;
     }
+  }
+
+  .sponsored-insights {
+    padding: 2px 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: blue;
+    margin: 0;
   }
 
   @media (min-width: 768px) and (max-width: 992px) {
