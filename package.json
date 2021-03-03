@@ -4,7 +4,6 @@
     "lint": "stylelint '**/*.scss' --fix",
     "sass": "sass './css/scss/main.scss' './css/main.css'"
   },
-
   "devDependencies": {
     "hint": "6.0.x",
     "stylelint": "13.3.x",
