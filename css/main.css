@@ -147,4 +147,15 @@ main img {
     margin-right: auto;
   }
 }
+
+@media (max-width: 1200px) {
+  .more-stories-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+    
+
+  }
+}
 /*# sourceMappingURL=main.css.map */
