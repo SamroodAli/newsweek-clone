@@ -181,21 +181,34 @@ footer {
 }
 
 main {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto Condensed",
+      sans-serif;
+  }
+
   h2 {
     color: grey;
     font-size: 1rem;
 
     .block-title {
-      font-family: "Roboto Condensed", sans-serif;
       font-size: 1rem;
       color: #03030369;
     }
   }
 
   h3 {
-    font-family: "Roboto Condensed", sans-serif;
     font-size: 1.5rem;
     color: #000;
+  }
+
+  h4 {
+    font-size: 1.375rem;
   }
 
   .signup {
@@ -247,8 +260,6 @@ main {
 
   img {
     width: 100%;
-    max-width: 100%;
-    max-height: 100%;
   }
 
   .vs {
@@ -285,6 +296,14 @@ main {
     background-color: rgba(255, 255, 255, 0.9);
     color: $blue;
     margin: 0;
+  }
+
+  .section-img-smg {
+    width: 40%;
+
+    @media (min-width: 768px) {
+      width: 50%;
+    }
   }
 
   @media (min-width: 768px) and (max-width: 992px) {

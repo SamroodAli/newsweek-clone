@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <header class="container-fluid container-xl pt-lg-2 p-0 text-white">
+  <header class="container-fluid container-xxl pt-lg-2 p-0 text-white">
     <nav class="navbar navbar-expand-lg pb-lg-3 p-0 p-lg-2">
       <div class="container-fluid flex-nowrap pb-lg-4">
         <p class="d-none d-lg-block align-self-end date">Mon, Mar 01, 2021</p>
@@ -72,7 +72,7 @@
     </div>
   </header>
 
-  <main class="container-fluid container-xl">
+  <main class="container-fluid container-xxl">
     <div class="row">
       <div class="col-md-5 col-lg-3">
         <!-- featured stories -->
@@ -209,7 +209,7 @@
           <article>
             <div class="relative">
               <img class="img-fluid" src="./assets/TS-1.jpg" alt="Joe Biden">
-              <p class="bottom-left">POLITICS</p>
+              <p class="bottom-left red">POLITICS</p>
             </div>
             <h3>Joe Biden's First Executive Actions Undo Many of Donald Trump's</h3>
             <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the first
@@ -706,21 +706,69 @@
     <!-- row 2 -->
     <div class="magazine container-fluid">
       <section>
-        <div class="my-4 text-center">
+        <div class="my-4 text-center border-bottom pb-3">
           <img class="logo" src="./assets/logo.png" alt="Logo">
-          <h4 class="d-inline">IN THE MAGAZINE</h4>
+          <h5 class="d-inline">IN THE MAGAZINE</h5>
         </div>
         <div class="row row-cols-md-4 fw-bold text-center">
           <article>
             <a href="#">
               <div class="relative">
-                <img src="./assets/magazine-article-1.webp" alt="Article">
+                <img class="mag-lg" src="./assets/magazine-article-1.webp" alt="Article">
                 <p class="absolute bottom-left red">JANUARY 22 ISSUE</p>
               </div>
               <p class="">SEE ALL FEATURES</p>
             </a>
           </article>
-          <article>
+          <article class="d-flex flex-column align-items-stretch">
+            <a href="#"><img src="./assets/magazine-img.webp" alt="magazine image"></a>
+            <div class="text-start">
+              <p class="d-inline bg-red px-2 text-light">COVER</p>
+              <p class="d-inline red">NEWS</p>
+              <p class="fw-bolder">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+            </div>
+          </article>
+          <article class="d-flex flex-column align-items-stretch">
+            <a href="#"><img src="./assets/magazine-img.webp" alt="magazine image"></a>
+            <div class="text-start">
+              <p class="d-inline bg-red px-2 text-light">COVER</p>
+              <p class="d-inline red">NEWS</p>
+              <p class="fw-bolder">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+            </div>
+          </article>
+          <article class="d-flex flex-column align-items-stretch">
+            <a href="#"><img src="./assets/magazine-img.webp" alt="magazine image"></a>
+            <div class="text-start">
+              <p class="d-inline bg-red px-2 text-light">COVER</p>
+              <p class="d-inline red">NEWS</p>
+              <p class="fw-bolder">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+            </div>
+          </article>
+          <article class="d-flex flex-column align-items-stretch">
+            <a href="#"><img src="./assets/magazine-img.webp" alt="magazine image"></a>
+            <div class="text-start">
+              <p class="d-inline bg-red px-2 text-light">COVER</p>
+              <p class="d-inline red">NEWS</p>
+              <p class="fw-bolder">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+            </div>
+          </article>
+          <article class="d-flex flex-column align-items-stretch">
+            <a href="#"><img src="./assets/magazine-img.webp" alt="magazine image"></a>
+            <div class="text-start">
+              <p class="d-inline bg-red px-2 text-light">COVER</p>
+              <p class="d-inline red">NEWS</p>
+              <p class="fw-bolder">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+            </div>
+          </article>
+          <article class="d-flex flex-column align-items-stretch">
+            <a href="#"><img src="./assets/magazine-img.webp" alt="magazine image"></a>
+            <div class="text-start">
+              <p class="d-inline bg-red px-2 text-light">COVER</p>
+              <p class="d-inline red">NEWS</p>
+              <p class="fw-bolder">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+            </div>
+          </article>
+          <article class="d-flex flex-column align-items-stretch">
             <a href="#"><img src="./assets/magazine-img.webp" alt="magazine image"></a>
             <div class="text-start">
               <p class="d-inline bg-red px-2 text-light">COVER</p>
@@ -735,13 +783,305 @@
     <!-- Editors pick -->
     <!-- row 1 -->
     <!-- row 2 -->
-    <div class="editor">
-      <section></section>
+    <div class="editor container-fluid">
+
+      <section class="mb-2">
+        <div class="my-4 text-center border-bottom pb-3">
+          <img class="logo" src="./assets/logo.png" alt="Logo">
+          <h5 class="d-inline">EDITOR'S PICK</h5>
+        </div>
+        <div class="row row-cols-md-2 row-cols-lg-4 fw-bold text-center">
+          <article class="text-start">
+            <div class="relative">
+              <a href="#"><img src="./assets/editor-img.webp" alt="editorial image"></a>
+              <p class="absolute bottom-left red">WORLD</p>
+            </div>
+            <h3> Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year
+            </h3>
+            <p class="summary fw-light">Newsweek spoke exclusively with four Israeli security officials charged with
+              frontiers
+              facing Syria, Lebanon, Gaza and
+              the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </article>
+          <article class="text-start">
+            <div class="relative">
+              <a href="#"><img src="./assets/editor-img.webp" alt="editorial image"></a>
+              <p class="absolute bottom-left red">WORLD</p>
+            </div>
+            <h3> Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year
+            </h3>
+            <p class="summary fw-light">Newsweek spoke exclusively with four Israeli security officials charged with
+              frontiers
+              facing Syria, Lebanon, Gaza and
+              the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </article>
+          <article class="text-start">
+            <div class="relative">
+              <a href="#"><img src="./assets/editor-img.webp" alt="editorial image"></a>
+              <p class="absolute bottom-left red">WORLD</p>
+            </div>
+            <h3> Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year
+            </h3>
+            <p class="summary fw-light">Newsweek spoke exclusively with four Israeli security officials charged with
+              frontiers
+              facing Syria, Lebanon, Gaza and
+              the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </article>
+          <article class="text-start">
+            <div class="relative">
+              <a href="#"><img src="./assets/editor-img.webp" alt="editorial image"></a>
+              <p class="absolute bottom-left red">WORLD</p>
+            </div>
+            <h3> Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year
+            </h3>
+            <p class="summary fw-light">Newsweek spoke exclusively with four Israeli security officials charged with
+              frontiers
+              facing Syria, Lebanon, Gaza and
+              the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </article>
+          <article class="text-start">
+            <div class="relative">
+              <a href="#"><img src="./assets/editor-img.webp" alt="editorial image"></a>
+              <p class="absolute bottom-left red">WORLD</p>
+            </div>
+            <h3> Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year
+            </h3>
+            <p class="summary fw-light">Newsweek spoke exclusively with four Israeli security officials charged with
+              frontiers
+              facing Syria, Lebanon, Gaza and
+              the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </article>
+          <article class="text-start">
+            <div class="relative">
+              <a href="#"><img src="./assets/editor-img.webp" alt="editorial image"></a>
+              <p class="absolute bottom-left red">WORLD</p>
+            </div>
+            <h3> Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year
+            </h3>
+            <p class="summary fw-light">Newsweek spoke exclusively with four Israeli security officials charged with
+              frontiers
+              facing Syria, Lebanon, Gaza and
+              the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </article>
+          <article class="text-start">
+            <div class="relative">
+              <a href="#"><img src="./assets/editor-img.webp" alt="editorial image"></a>
+              <p class="absolute bottom-left red">WORLD</p>
+            </div>
+            <h3> Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year
+            </h3>
+            <p class="summary fw-light">Newsweek spoke exclusively with four Israeli security officials charged with
+              frontiers
+              facing Syria, Lebanon, Gaza and
+              the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </article>
+          <article class="text-start">
+            <div class="relative">
+              <a href="#"><img src="./assets/editor-img.webp" alt="editorial image"></a>
+              <p class="absolute bottom-left red">WORLD</p>
+            </div>
+            <h3> Israel Security Officials Reveal Top Threats Faced on Four Fronts This Year
+            </h3>
+            <p class="summary fw-light">Newsweek spoke exclusively with four Israeli security officials charged with
+              frontiers
+              facing Syria, Lebanon, Gaza and
+              the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
+          </article>
+        </div>
+      </section>
     </div>
 
     <!-- Single row spanning sections 7 parts-->
     <div>
-      <section></section>
+      <section class="container-fluid border-top pt-3">
+        <h3 class="red fw-bolder">U.S</h3>
+        <div class="row row-cols-md-3 ">
+          <div>
+            <img src="./assets/section-img.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div>
+            <img src="./assets/section-img-2.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div class="fw-bold">
+            <div class="d-flex my-1 border-bottom pb-2 "><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid border-top pt-3">
+        <h3 class="red fw-bolder">U.S</h3>
+        <div class="row row-cols-md-3 ">
+          <div>
+            <img src="./assets/section-img.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div>
+            <img src="./assets/section-img-2.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div class="fw-bold">
+            <div class="d-flex my-1 border-bottom pb-2 "><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid border-top pt-3">
+        <h3 class="red fw-bolder">U.S</h3>
+        <div class="row row-cols-md-3 ">
+          <div>
+            <img src="./assets/section-img.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div>
+            <img src="./assets/section-img-2.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div class="fw-bold">
+            <div class="d-flex my-1 border-bottom pb-2 "><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid border-top pt-3">
+        <h3 class="red fw-bolder">U.S</h3>
+        <div class="row row-cols-md-3 ">
+          <div>
+            <img src="./assets/section-img.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div>
+            <img src="./assets/section-img-2.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div class="fw-bold">
+            <div class="d-flex my-1 border-bottom pb-2 "><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid border-top pt-3">
+        <h3 class="red fw-bolder">U.S</h3>
+        <div class="row row-cols-md-3 ">
+          <div>
+            <img src="./assets/section-img.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div>
+            <img src="./assets/section-img-2.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div class="fw-bold">
+            <div class="d-flex my-1 border-bottom pb-2 "><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid border-top pt-3">
+        <h3 class="red fw-bolder">U.S</h3>
+        <div class="row row-cols-md-3 ">
+          <div>
+            <img src="./assets/section-img.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div>
+            <img src="./assets/section-img-2.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div class="fw-bold">
+            <div class="d-flex my-1 border-bottom pb-2 "><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid border-top pt-3">
+        <h3 class="red fw-bolder">U.S</h3>
+        <div class="row row-cols-md-3 ">
+          <div>
+            <img src="./assets/section-img.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div>
+            <img src="./assets/section-img-2.webp" alt="">
+            <h4 class="fw-bold">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</h4>
+          </div>
+          <div class="fw-bold">
+            <div class="d-flex my-1 border-bottom pb-2 "><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+            <div class="d-flex my-1 border-bottom pb-2"><img class="h-50 w-s mx-4 section-img-smg"
+                src="./assets/section-img-small.webp" alt="section image">
+              <p>Trillions of Brood 10 Cicadas to Emerge in U.S. After 17 Years Underground</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- subscribe and newsletter -->
@@ -752,7 +1092,7 @@
 
   </main>
 
-  <footer class="container-fluid container-xl mt-5">
+  <footer class="container-fluid container-xxl mt-5">
     <div class="row d-flex">
       <div class="col-md-8 d-md-flex flex-row align-items-end">
         <a href="https://web.archive.org/web/20210120125445/https://www.newsweek.com/"><img
