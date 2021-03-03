@@ -6,7 +6,11 @@ $offwhite:#efefef;
 $blue:#70a2f1;
 
 .red {
-  color: whitesmoke;
+  color: $red;
+}
+
+.blue {
+  color: $blue;
 }
 
 * {
@@ -181,13 +185,20 @@ main {
   h3 {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.5rem;
-    color: #000000;
+    color: #000;
+  }
+
+  .top-story {
+    h2 {
+      color: black;
+      font-size: 1.5rem;
+    }
   }
 
   p.summary {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: #333333;
+    color: #333;
     line-height: 1.2rem;
   }
 
@@ -227,7 +238,7 @@ main {
   }
 
   .sponsored-insights {
-    padding: 2px 5px;
+    padding: 6px;
     background-color: rgba(255, 255, 255, 0.9);
     color: $blue;
     margin: 0;

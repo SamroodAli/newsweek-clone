@@ -1,6 +1,10 @@
 /* No CSS */
 .red {
-  color: whitesmoke;
+  color: #f72210;
+}
+
+.blue {
+  color: #70a2f1;
 }
 
 * {
@@ -170,13 +174,18 @@ main h2 .block-title {
 main h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.5rem;
-  color: #000000;
+  color: #000;
+}
+
+main .top-story h2 {
+  color: black;
+  font-size: 1.5rem;
 }
 
 main p.summary {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  color: #333333;
+  color: #333;
   line-height: 1.2rem;
 }
 
@@ -214,7 +223,7 @@ main section.debate .debate-article-1 {
 }
 
 main .sponsored-insights {
-  padding: 2px 5px;
+  padding: 6px;
   background-color: rgba(255, 255, 255, 0.9);
   color: #70a2f1;
   margin: 0;
