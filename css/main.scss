@@ -34,8 +34,6 @@ a {
 
 // general heading styling
 
-
-
 header {
   background-color: $red;
 
@@ -162,10 +160,8 @@ footer {
 
 main {
 
-  h1 {
-    
-  }
-  
+  h1 {}
+
   h2 {
     color: grey;
     font-size: 1rem;
@@ -173,12 +169,12 @@ main {
     .block-title {
       font-family: "Roboto Condensed", sans-serif;
       font-size: 1rem;
-      color:#03030369;
+      color: #03030369;
     }
   }
-  
+
   h3 {
-    font-family:"Roboto Condensed", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 1.5rem;
     color: #000000;
   }

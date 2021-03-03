@@ -4,11 +4,9 @@ a {
   color: grey;
   text-decoration: none;
 }
-
 a:visited {
   color: black;
 }
-
 a:hover {
   color: red;
 }
@@ -16,7 +14,6 @@ a:hover {
 .relative {
   position: relative;
 }
-
 .relative .bottom-left {
   position: absolute;
   bottom: 0;
@@ -26,46 +23,25 @@ a:hover {
   margin: 0;
 }
 
-h1 {
-  font-size: 1.5rem;
-}
-
-h2 {
-  color: grey;
-  font-size: 1rem;
-}
-
-h3 {
-  font-family:"Roboto Condensed", sans-serif;
-    font-size: 1.5rem;
-    color: #000000;
-}
-
 header {
   background-color: #f72210;
 }
-
 header .login {
   font-weight: bold;
   font-size: 1.5rem;
 }
-
 header img {
   background-color: #f72210;
   display: block;
   width: 132px;
   height: 20px;
 }
-
 header .date {
   position: relative;
   top: 1rem;
 }
-
 header .navbar-collapse {
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   color: black;
   width: 40%;
   background-color: white;
@@ -73,34 +49,27 @@ header .navbar-collapse {
   right: 0;
   top: 0;
 }
-
 header .navbar-collapse div:nth-child(2) ul a {
   color: grey;
 }
-
 header .navbar-collapse .clip {
-  -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
   background-color: white;
   position: relative;
   bottom: 1.4rem;
   margin-right: 1rem;
 }
-
 header .navbar-collapse .search {
   border-right: 0;
 }
-
 header .navbar-collapse .search input {
   width: 7vw;
   margin-right: -1.4rem;
   border: 0;
 }
-
 header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
   color: black;
 }
-
 @media (min-width: 992px) {
   header .navbar-collapse {
     position: relative;
@@ -111,7 +80,6 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
     margin: 1rem;
   }
 }
-
 @media (min-width: 992px) {
   header .navbar img {
     width: 396px;
@@ -135,40 +103,53 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
 footer img {
   width: 12rem;
 }
-
 footer .navlink:hover {
   color: #70a2f1;
 }
-
 footer nav .nav-link {
   padding: 0 0.4rem;
   border-right: 1px solid grey;
   margin-top: 0.4rem;
 }
-
 footer .editions {
   border-top: 1px solid grey;
   margin-top: 1rem;
 }
-
 footer i {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
   margin: 0 0.2rem;
 }
-
 @media (min-width: 768px) {
   footer img {
     width: 15rem;
   }
 }
 
+main h2 {
+  color: grey;
+  font-size: 1rem;
+}
+main h2 .block-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  color: #03030369;
+}
+main h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+}
+main p.summary {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  line-height: 1.2rem;
+}
 main img {
   width: 100%;
   max-width: 100%;
   max-height: 100%;
 }
-
 main .vs {
   background-color: black;
   width: 2rem;
@@ -179,34 +160,30 @@ main .vs {
   position: absolute;
   left: 42%;
 }
-
 main .more-stories-img {
   width: 100px;
   height: 100px;
   float: left;
   padding-right: 11px;
 }
-
 main .debate img,
 main .opinion img {
   width: 4rem;
 }
-
 main section.debate .debate-article-1 {
   margin: 2px;
 }
-
 main .sponsored-insights {
   padding: 2px 5px;
   background-color: rgba(255, 255, 255, 0.9);
   color: #70a2f1;
   margin: 0;
 }
-
 @media (min-width: 768px) and (max-width: 992px) {
   main .sponsor {
     max-width: 40%;
     margin: 0 auto;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
