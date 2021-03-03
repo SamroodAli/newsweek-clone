@@ -5,6 +5,12 @@ $red: #f72210;
 $offwhite:#efefef;
 $blue:#70a2f1;
 
+.logo {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
+
 .red {
   color: $red;
 }
@@ -198,7 +204,7 @@ main {
     }
   }
 
-  .signup * {
+  .signup *:not(.logo) {
     width: 100%;
     margin: 0.5rem 0;
   }

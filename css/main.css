@@ -1,4 +1,10 @@
 /* No CSS */
+.logo {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
+
 .red {
   color: #f72210;
 }
@@ -189,7 +195,7 @@ main .signup {
   }
 }
 
-main .signup * {
+main .signup *:not(.logo) {
   width: 100%;
   margin: 0.5rem 0;
 }
