@@ -188,6 +188,17 @@ main {
     max-height: 100%;
   }
 
+  .vs {
+    background-color: black;
+    width: 2rem;
+    height: 1.8rem;
+    color: white;
+    text-align: center;
+    top: 47%;
+    position: absolute;
+    left: 42%;
+  }
+
   .more-stories-img {
     width: 100px;
     height: 100px;
@@ -198,6 +209,12 @@ main {
   .debate img,
   .opinion img {
     width: 4rem;
+  }
+
+  section.debate {
+    .debate-article-1 {
+      margin: 2px;
+    }
   }
 
   @media (min-width: 768px) and (max-width: 992px) {
