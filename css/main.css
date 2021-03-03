@@ -5,6 +5,10 @@
   margin: 0 0.5rem;
 }
 
+.bg-red {
+  background-color: #f72210;
+}
+
 .red {
   color: #f72210;
 }
