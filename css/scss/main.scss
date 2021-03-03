@@ -27,16 +27,31 @@ a {
 
 .relative {
   position: relative;
+
+  .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2px 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: red;
+    margin: 0;
+  }
+
+  .sponsored-insights {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2px 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: blue;
+    margin: 0;
+  }
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 1rem 2rem;
-  background-color: grey;
-  margin: 0;
-}
+
+
+
 
 header {
   background-color: $red;
