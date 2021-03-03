@@ -2,7 +2,7 @@
   "scripts": {
     "hint": "hint .",
     "lint": "stylelint '**/*.scss' --fix",
-    "sass": "sass './scss/main.scss' './scss/main.css'"
+    "sass": "sass './css/main.scss' './css/main.css'"
   },
   "devDependencies": {
     "hint": "6.0.x",
