@@ -2,7 +2,6 @@
 a {
   background-color: white;
   color: grey;
-  text-decoration: none;
 }
 
 a:visited {
@@ -11,6 +10,14 @@ a:visited {
 
 a:hover {
   color: red;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
 }
 
 .relative {
@@ -35,19 +42,6 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.9);
   color: blue;
   margin: 0;
-}
-
-h1 {
-  font-size: 1.5rem;
-}
-
-h2 {
-  color: grey;
-  font-size: 1rem;
-}
-
-h3 {
-  font-size: 1.25rem;
 }
 
 header {

@@ -20,15 +20,26 @@ a {
 
 .relative {
   position: relative;
-}
 
-.bottom-left {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 1rem 2rem;
-  background-color: grey;
-  margin: 0;
+  .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2px 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: red;
+    margin: 0;
+  }
+
+  .sponsored-insights {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2px 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: blue;
+    margin: 0;
+  }
 }
 
 // general heading styling
@@ -36,7 +47,6 @@ a {
 h1 {
   font-size: 1.5rem;
 }
-
 
 h2 {
   color: grey;
@@ -172,9 +182,6 @@ footer {
 }
 
 main {
-
-
-
   img {
     width: 100%;
     max-width: 100%;
