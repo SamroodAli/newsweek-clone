@@ -23,7 +23,6 @@ a:hover {
   left: 0;
   padding: 2px 5px;
   background-color: rgba(255, 255, 255, 0.9);
-  color: red;
   margin: 0;
 }
 
@@ -136,7 +135,7 @@ footer img {
 }
 
 footer .navlink:hover {
-  color: blue;
+  color: #70a2f1;
 }
 
 footer nav .nav-link {
@@ -198,7 +197,7 @@ main section.debate .debate-article-1 {
 main .sponsored-insights {
   padding: 2px 5px;
   background-color: rgba(255, 255, 255, 0.9);
-  color: blue;
+  color: #70a2f1;
   margin: 0;
 }
 
