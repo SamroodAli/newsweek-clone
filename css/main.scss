@@ -243,7 +243,7 @@ main {
     color: white;
     background: $red;
     font-size: 1rem;
-    width: 2rem;
+    width: 100%;
   }
 
   .form-submit {
@@ -319,18 +319,49 @@ main {
     }
   }
 
-  // subscribe front image
-  .subscribe-front-img {
-    top: 2.1rem;
-    left: 8rem;
-  }
-
-  .subscribe-img-container {
-    background-color: #f4f5f6;
-
-    img {
-      width: 10rem;
+  .subscribe {
+    .subscribe-img-container {
+      background-color: #f4f5f6;
     }
+
+    .subscribe-heading {
+      bottom: 4rem;
+      font-size: 1.1rem;
+      z-index: 2;
+    }
+
+    .para-subscribe {
+      margin-top: -2rem;
+    }
+
+    .subscribe-img-frame {
+      right: 3rem;
+      width: 10rem;
+
+      img {
+        max-height: 100%;
+      }
+
+      .subscribe-front-img {
+        top: 1rem;
+        left: 4rem;
+      }
+    }
+
+    // newsletter
+    .newslettter-form {
+      padding: 1rem;
+
+      .email{
+        padding-left: ;
+      }
+
+      * {
+        width: 100%;
+      }
+
+    }
+
   }
 
   @media (min-width: 768px) and (max-width: 992px) {

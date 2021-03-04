@@ -722,7 +722,7 @@
               <p class="">SEE ALL FEATURES</p>
             </a>
           </article>
-          <article class="d-flex flex-column align-items-stretch">
+          <article class="d-flex flex-column justify-content-center">
             <a href="#"><img src="./assets/magazine-img.webp" alt="magazine image"></a>
             <div class="text-start">
               <p class="d-inline bg-red px-2 text-light">COVER</p>
@@ -1095,34 +1095,44 @@
     </div>
 
     <!-- subscribe and newsletter -->
-    <div class="container-fluid">
-      <div class="row container-fluid">
-        <section class="col-md-7 col-lg-8 border-top border-2 p-5 row">
-          <h6 class="red fw-bold p-0">SUBSCRIBE</h6>
-          <div class=" subscribe-img-container m-0 py-3 row">
-            <div class="pt-4 relative p-5 col-7">
+    <div class="container-fluid subscribe">
+      <div class="row">
+        <!-- section left -->
+        <section class="border-top border-2 my-3 py-3">
+          <h6 class="red fw-bold">SUBSCRIBE</h6>
+          <div class="subscribe-img-container py-3 justify-content-center">
+            <div class="subscribe-img-frame mx-auto position-relative">
               <img src="./assets/subscribe-back.jpg" alt="subscribe section back photo">
               <img src="./assets/subscribe-front.jpg" alt="subscribe section front photo"
                 class="position-absolute subscribe-front-img">
             </div>
-            <div class="text-start col-5 align-self-start">
-              <h3 class="fw-bold">
+            <div class="text-center d-block container">
+              <h3 class="fw-bold position-relative subscribe-heading">
                 In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
               </h3>
-              <p class="small">All Access + Weekly Delivery.
+              <p class="small para-subscribe">All Access + Weekly Delivery.
                 Choose A Membership That's Perfect for You!</p>
               <a class="text-light btn bg-red">SUBSCRIBE ></a>
             </div>
           </div>
         </section>
-        <section class="col-md-5 col-lg-4 border-top border-2">
-          <img src="./assets/newsletter.png" alt="newsletter image">
-          <h3>The Starting 5</h3>
-          <p class="small">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-          <form action="#" class="signup">
-            <input class="email-submit" type="email" placeholder="Email address">
-            <button class="form-submit" type="submit">FREE SIGNUP ></button>
-          </form>
+        <!-- section right -->
+        <section class="border-top border-2 text-center my-3 py-3">
+          <h6 class="red fw-bold text-start">NEWSLETTER</h6>
+          <div class="row">
+            <img src="./assets/newsletter.png" alt="newsletter image" class="h-25 col-md-6">
+            <div class="col-md-6">
+              <h3 class="m-3 fw-bold">THE STARTING 5</h3>
+              <p class="small">See why nearly a quarter of a million subscribers begin their day with the Starting 5.
+              </p>
+              <form action="#" class="newslettter-form">
+                <div class="rounded-3 d-flex">
+                  <input class="email px-2 border-1" type="email" placeholder="Email address">
+                  <button class="submit p-2 border-0 bg-red text-light" type="submit">FREE SIGNUP ></button>
+                </div>
+            </div>
+            </form>
+          </div>
         </section>
       </div>
     </div>

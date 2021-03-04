@@ -232,7 +232,7 @@ main .signup-n {
   color: white;
   background: #f72210;
   font-size: 1rem;
-  width: 2rem;
+  width: 100%;
 }
 
 main .form-submit {
@@ -306,17 +306,40 @@ main .section-img-smg {
   }
 }
 
-main .subscribe-front-img {
-  top: 2.1rem;
-  left: 8rem;
-}
-
-main .subscribe-img-container {
+main .subscribe .subscribe-img-container {
   background-color: #f4f5f6;
 }
 
-main .subscribe-img-container img {
+main .subscribe .subscribe-heading {
+  bottom: 4rem;
+  font-size: 1.1rem;
+  z-index: 2;
+}
+
+main .subscribe .para-subscribe {
+  margin-top: -2rem;
+}
+
+main .subscribe .subscribe-img-frame {
+  right: 3rem;
   width: 10rem;
+}
+
+main .subscribe .subscribe-img-frame img {
+  max-height: 100%;
+}
+
+main .subscribe .subscribe-img-frame .subscribe-front-img {
+  top: 1rem;
+  left: 4rem;
+}
+
+main .subscribe .newslettter-form {
+  padding: 1rem;
+}
+
+main .subscribe .newslettter-form * {
+  width: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
