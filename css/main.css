@@ -33,6 +33,7 @@ a:visited {
 
 a:hover {
   color: red;
+  text-decoration: underline;
 }
 
 .relative {

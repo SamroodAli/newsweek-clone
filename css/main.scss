@@ -38,6 +38,7 @@ a {
 
   &:hover {
     color: red;
+    text-decoration: underline;
   }
 }
 
@@ -195,6 +196,7 @@ footer {
 }
 
 main {
+
   h1,
   h2,
   h3,
@@ -395,6 +397,7 @@ main {
         }
 
         @media (min-width: 768px) {
+
           .subscribe-heading,
           .para-subscribe {
             position: static;
