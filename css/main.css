@@ -306,32 +306,50 @@ main .section-img-smg {
   }
 }
 
-main .subscribe .subscribe-img-container {
+main .subscribe h6 {
+  font-size: 1rem;
+}
+
+main .subscribe .subscribe-outer {
   background-color: #f4f5f6;
 }
 
-main .subscribe .subscribe-heading {
+main .subscribe .subscribe-inner .subscribe-img-frame {
+  right: 3rem;
+  width: 12rem;
+}
+
+main .subscribe .subscribe-inner .subscribe-img-frame img {
+  max-height: 100%;
+}
+
+main .subscribe .subscribe-inner .subscribe-img-frame .subscribe-front-img {
+  top: 1rem;
+  left: 4rem;
+}
+
+main .subscribe .subscribe-inner .subscribe-part-two .subscribe-heading {
+  position: relative;
   bottom: 4rem;
   font-size: 1.1rem;
   z-index: 2;
 }
 
-main .subscribe .para-subscribe {
+main .subscribe .subscribe-inner .subscribe-part-two .para-subscribe {
   margin-top: -2rem;
 }
 
-main .subscribe .subscribe-img-frame {
-  right: 3rem;
-  width: 10rem;
-}
-
-main .subscribe .subscribe-img-frame img {
-  max-height: 100%;
-}
-
-main .subscribe .subscribe-img-frame .subscribe-front-img {
-  top: 1rem;
-  left: 4rem;
+@media (min-width: 768px) {
+  main .subscribe .subscribe-inner .subscribe-part-two .subscribe-heading,
+  main .subscribe .subscribe-inner .subscribe-part-two .para-subscribe {
+    position: static;
+  }
+  main .subscribe .subscribe-inner .subscribe-part-two .subscribe-heading {
+    font-size: 1.4rem;
+  }
+  main .subscribe .subscribe-inner .subscribe-part-two .para-subscribe {
+    margin-top: 0;
+  }
 }
 
 main .subscribe .newsletter-img {

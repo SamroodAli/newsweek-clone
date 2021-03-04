@@ -320,31 +320,59 @@ main {
   }
 
   .subscribe {
-    .subscribe-img-container {
+    h6 {
+      font-size: 1rem;
+    }
+
+    .subscribe-outer {
       background-color: #f4f5f6;
     }
 
-    .subscribe-heading {
-      bottom: 4rem;
-      font-size: 1.1rem;
-      z-index: 2;
-    }
+    .subscribe-inner {
 
-    .para-subscribe {
-      margin-top: -2rem;
-    }
+      // subscribe part 1
+      .subscribe-img-frame {
+        right: 3rem;
+        width: 12rem;
 
-    .subscribe-img-frame {
-      right: 3rem;
-      width: 10rem;
+        img {
+          max-height: 100%;
+        }
 
-      img {
-        max-height: 100%;
+        .subscribe-front-img {
+          top: 1rem;
+          left: 4rem;
+        }
       }
 
-      .subscribe-front-img {
-        top: 1rem;
-        left: 4rem;
+      // subscribe part 2
+      .subscribe-part-two {
+        .subscribe-heading {
+          position: relative;
+          bottom: 4rem;
+          font-size: 1.1rem;
+          z-index: 2;
+        }
+
+        .para-subscribe {
+          margin-top: -2rem;
+        }
+
+        @media (min-width: 768px) {
+
+          .subscribe-heading,
+          .para-subscribe {
+            position: static;
+          }
+
+          .subscribe-heading {
+            font-size: 1.4rem;
+          }
+
+          .para-subscribe {
+            margin-top: 0;
+          }
+        }
       }
     }
 
