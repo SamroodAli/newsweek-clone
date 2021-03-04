@@ -306,6 +306,26 @@ main .section-img-smg {
   }
 }
 
+@media (min-width: 768px) {
+  main .magazine article img {
+    height: 12rem;
+  }
+  main .magazine article .mag-lg {
+    height: 18rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .magazine article img {
+    height: 16rem;
+  }
+  main .magazine article .mag-lg {
+    height: 23rem;
+    position: relative;
+    bottom: 1rem;
+  }
+}
+
 main .subscribe h6 {
   font-size: 1rem;
 }

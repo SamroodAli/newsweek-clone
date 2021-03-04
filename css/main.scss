@@ -200,8 +200,7 @@ main {
   h4,
   h5,
   h6 {
-    font-family: "Roboto Condensed",
-      sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
   }
 
   h2 {
@@ -319,6 +318,36 @@ main {
     }
   }
 
+  // magazine section
+  .magazine {
+    @media(min-width:768px) {
+      article {
+        img {
+          height: 12rem;
+        }
+
+        .mag-lg {
+          height: 18rem;
+        }
+      }
+    }
+
+    @media(min-width:1200px) {
+      article {
+
+        img {
+          height: 16rem;
+        }
+
+        .mag-lg {
+          height: 23rem;
+          position: relative;
+          bottom: 1rem;
+        }
+      }
+    }
+  }
+
   .subscribe {
     h6 {
       font-size: 1rem;
@@ -343,8 +372,6 @@ main {
           top: 1rem;
           left: 4rem;
         }
-
-
       }
 
       // subscribe part 2
@@ -395,9 +422,7 @@ main {
       * {
         width: 100%;
       }
-
     }
-
   }
 
   @media (min-width: 768px) and (max-width: 992px) {
