@@ -180,9 +180,11 @@ footer {
     margin-top: 1rem;
   }
 
-  i {
+  .social-icons {
     transform: scale(1.5);
     margin: 0 0.2rem;
+    height: 1rem;
+    width: 1rem;
   }
 
   @media (min-width: 768px) {
@@ -320,7 +322,7 @@ main {
 
   // magazine section
   .magazine {
-    @media(min-width:768px) {
+    @media (min-width: 768px) {
       article {
         img {
           height: 12rem;
@@ -332,9 +334,8 @@ main {
       }
     }
 
-    @media(min-width:1200px) {
+    @media (min-width: 1200px) {
       article {
-
         img {
           height: 16rem;
         }
@@ -354,7 +355,6 @@ main {
       min-height: 30vh;
     }
   }
-
 
   .subscribe {
     h6 {

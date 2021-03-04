@@ -170,10 +170,12 @@ footer .editions {
   margin-top: 1rem;
 }
 
-footer i {
+footer .social-icons {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
   margin: 0 0.2rem;
+  height: 1rem;
+  width: 1rem;
 }
 
 @media (min-width: 768px) {
