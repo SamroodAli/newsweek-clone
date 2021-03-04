@@ -52,6 +52,14 @@ header {
   background-color: #f72210;
 }
 
+header .navbar-nav {
+  margin: 0 0.5rem;
+}
+
+header .top-nav {
+  font-size: 1.1rem;
+}
+
 header .login {
   font-weight: bold;
   font-size: 1.5rem;
@@ -86,16 +94,21 @@ header .navbar-collapse div:nth-child(2) ul a {
 }
 
 header .navbar-collapse .clip {
-  -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
   background-color: white;
   position: relative;
-  bottom: 1.4rem;
+  bottom: 1.2rem;
   margin-right: 1rem;
 }
 
 header .navbar-collapse .search {
   border-right: 0;
+}
+
+header .navbar-collapse .search i {
+  right: 2rem;
+  color: grey;
 }
 
 header .navbar-collapse .search input {
@@ -133,7 +146,6 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
   header #expandme div:nth-child(2) ul {
     position: relative;
     bottom: 1.45rem;
-    margin-top: 1rem;
     border-top: 2px solid #efefef;
     border-bottom: 2px solid #efefef;
   }
@@ -180,6 +192,7 @@ main h6 {
 }
 
 main h2 {
+  margin: 1rem 0;
   color: grey;
   font-size: 1rem;
 }
@@ -291,6 +304,16 @@ main .section-img-smg {
   main .section-img-smg {
     width: 50%;
   }
+}
+
+main .subscribe-front-img {
+  top: 1rem;
+  left: 2rem;
+}
+
+main .subsribe-img-container img {
+  height: 15rem;
+  width: 15rem;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
