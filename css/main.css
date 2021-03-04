@@ -307,13 +307,16 @@ main .section-img-smg {
 }
 
 main .subscribe-front-img {
-  top: 1rem;
-  left: 2rem;
+  top: 2.1rem;
+  left: 8rem;
+}
+
+main .subsribe-img-container {
+  background-color: #f4f5f6;
 }
 
 main .subsribe-img-container img {
-  height: 15rem;
-  width: 15rem;
+  width: 10rem;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
