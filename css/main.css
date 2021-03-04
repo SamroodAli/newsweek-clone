@@ -326,8 +326,8 @@ main .section-img-smg {
   }
 }
 
-main .editor section img:nth-of-type(1) {
-  min-height: 70%;
+main .seven-sections .section-img {
+  min-height: 30vh;
 }
 
 main .subscribe h6 {
