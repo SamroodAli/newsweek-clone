@@ -349,12 +349,13 @@ main {
     }
 
     // newsletter
+
+    .newsletter-img {
+      max-height: 200px;
+    }
+
     .newslettter-form {
       padding: 1rem;
-
-      .email{
-        padding-left: ;
-      }
 
       * {
         width: 100%;

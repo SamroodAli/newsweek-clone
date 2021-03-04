@@ -334,6 +334,10 @@ main .subscribe .subscribe-img-frame .subscribe-front-img {
   left: 4rem;
 }
 
+main .subscribe .newsletter-img {
+  max-height: 200px;
+}
+
 main .subscribe .newslettter-form {
   padding: 1rem;
 }
