@@ -356,6 +356,13 @@ main .subscribe .newsletter-img {
   max-height: 200px;
 }
 
+@media (min-width: 992px) {
+  main .subscribe .newsletter-img {
+    min-height: 310px;
+    max-height: 100%;
+  }
+}
+
 main .subscribe .newslettter-form {
   padding: 1rem;
 }

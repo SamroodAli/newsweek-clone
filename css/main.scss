@@ -343,6 +343,8 @@ main {
           top: 1rem;
           left: 4rem;
         }
+
+
       }
 
       // subscribe part 2
@@ -380,6 +382,11 @@ main {
 
     .newsletter-img {
       max-height: 200px;
+
+      @media (min-width: 992px) {
+        min-height: 310px;
+        max-height: 100%;
+      }
     }
 
     .newslettter-form {
