@@ -1,7 +1,30 @@
 /* No CSS */
+.logo {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.red {
+  color: #f72210;
+}
+
+.blue {
+  color: #70a2f1;
+}
+
+* {
+  border-color: #ccd8e3;
+}
+
 a {
   background-color: white;
   color: grey;
+  text-decoration: none;
 }
 
 a:visited {
@@ -10,10 +33,32 @@ a:visited {
 
 a:hover {
   color: red;
+  text-decoration: underline;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative .bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2px 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0;
 }
 
 header {
   background-color: #f72210;
+}
+
+header .navbar-nav {
+  margin: 0 0.5rem;
+}
+
+header .top-nav {
+  font-size: 1.1rem;
 }
 
 header .login {
@@ -50,16 +95,21 @@ header .navbar-collapse div:nth-child(2) ul a {
 }
 
 header .navbar-collapse .clip {
-  -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
   background-color: white;
   position: relative;
-  bottom: 1.4rem;
+  bottom: 1.2rem;
   margin-right: 1rem;
 }
 
 header .navbar-collapse .search {
   border-right: 0;
+}
+
+header .navbar-collapse .search i {
+  right: 2rem;
+  color: grey;
 }
 
 header .navbar-collapse .search input {
@@ -97,7 +147,6 @@ header .navbar-collapse div:nth-child(2) ul li:nth-child(1) a {
   header #expandme div:nth-child(2) ul {
     position: relative;
     bottom: 1.45rem;
-    margin-top: 1rem;
     border-top: 2px solid #efefef;
     border-bottom: 2px solid #efefef;
   }
@@ -108,7 +157,7 @@ footer img {
 }
 
 footer .navlink:hover {
-  color: blue;
+  color: #70a2f1;
 }
 
 footer nav .nav-link {
@@ -122,15 +171,237 @@ footer .editions {
   margin-top: 1rem;
 }
 
-footer i {
+footer .social-icons {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
   margin: 0 0.2rem;
+  height: 1rem;
+  width: 1rem;
 }
 
 @media (min-width: 768px) {
   footer img {
     width: 15rem;
+  }
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+main h2 {
+  margin: 1rem 0;
+  color: grey;
+  font-size: 1rem;
+}
+
+main h2 .block-title {
+  font-size: 1rem;
+  color: #03030369;
+}
+
+main h3 {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+main h4 {
+  font-size: 1.375rem;
+}
+
+main .signup {
+  background-color: #f4f5f69f;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  main .signup {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+main .signup *:not(.logo) {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+main .signup-n {
+  color: white;
+  background: #f72210;
+  font-size: 1rem;
+  width: 100%;
+}
+
+main .form-submit {
+  background-color: #f72210;
+  border: none;
+}
+
+main .email-submit {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+}
+
+main .top-story h3 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+main p.summary {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.2rem;
+}
+
+main img {
+  width: 100%;
+}
+
+main .vs {
+  background-color: black;
+  width: 2rem;
+  height: 1.8rem;
+  color: white;
+  text-align: center;
+  top: 48%;
+  position: absolute;
+  left: 46%;
+}
+
+main .more-stories-img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-right: 11px;
+}
+
+main .debate img,
+main .opinion img {
+  width: 4rem;
+}
+
+main section.debate .debate-article-1 {
+  margin-bottom: 2px;
+}
+
+main .sponsored-insights {
+  padding: 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #70a2f1;
+  margin: 0;
+}
+
+main .section-img-smg {
+  width: 30%;
+}
+
+@media (min-width: 768px) {
+  main .section-img-smg {
+    width: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  main .magazine article img {
+    height: 12rem;
+  }
+  main .magazine article .mag-lg {
+    height: 18rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .magazine article img {
+    height: 16rem;
+  }
+  main .magazine article .mag-lg {
+    height: 23rem;
+    position: relative;
+    bottom: 1rem;
+  }
+}
+
+main .seven-sections .section-img {
+  min-height: 30vh;
+}
+
+main .subscribe h6 {
+  font-size: 1rem;
+}
+
+main .subscribe .subscribe-outer {
+  background-color: #f4f5f6;
+}
+
+main .subscribe .subscribe-inner .subscribe-img-frame {
+  right: 3rem;
+  width: 12rem;
+}
+
+main .subscribe .subscribe-inner .subscribe-img-frame img {
+  max-height: 100%;
+}
+
+main .subscribe .subscribe-inner .subscribe-img-frame .subscribe-front-img {
+  top: 1rem;
+  left: 4rem;
+}
+
+main .subscribe .subscribe-inner .subscribe-part-two .subscribe-heading {
+  position: relative;
+  bottom: 4rem;
+  font-size: 1.1rem;
+  z-index: 2;
+}
+
+main .subscribe .subscribe-inner .subscribe-part-two .para-subscribe {
+  margin-top: -2rem;
+}
+
+@media (min-width: 768px) {
+  main .subscribe .subscribe-inner .subscribe-part-two .subscribe-heading,
+  main .subscribe .subscribe-inner .subscribe-part-two .para-subscribe {
+    position: static;
+  }
+  main .subscribe .subscribe-inner .subscribe-part-two .subscribe-heading {
+    font-size: 1.4rem;
+  }
+  main .subscribe .subscribe-inner .subscribe-part-two .para-subscribe {
+    margin-top: 0;
+  }
+}
+
+main .subscribe .newsletter-img {
+  max-height: 200px;
+}
+
+@media (min-width: 992px) {
+  main .subscribe .newsletter-img {
+    min-height: 310px;
+    max-height: 100%;
+  }
+}
+
+main .subscribe .newslettter-form {
+  padding: 1rem;
+}
+
+main .subscribe .newslettter-form * {
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  main .sponsor {
+    max-width: 40%;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
