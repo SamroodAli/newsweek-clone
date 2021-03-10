@@ -2,7 +2,7 @@
 
 # Newsweek Website
 
->This a clone of the Newsweek website which provides trending stories in America. The various topics are arranged into articles, sections and links leading to more resources.
+This is Zattix, a musical instruments e-commerce as part of the capstone project from Microverse. This is built using HTML and CSS.
 
 ![screenshot](./assets/screenshot.png)
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://samroodali.github.io/newsweek-clone/)
+[Live Demo Link](https://samroodali.github.io/zattix-shopping/index.html)
 
 ## Requirements
 
@@ -25,7 +25,7 @@ Additional description about the project and its features.
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
-1. Go to https://github.com/SamroodAli/newsweek-clone
+1. Go to https://github.com/SamroodAli/zattix-shopping
 2. Click on the code and copy the HTML code.
 3. Use terminal to clone this repository on your local machine.
 4. Run `git checkout -b your-branch-name`. Make your contributions
@@ -33,15 +33,11 @@ To get a local copy up and running follow these simple example steps.
 6. Open a Pull Request with a detailed description of the development branch of the original project for a review
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@SamroodAli](https://github.com/SamroodAli)
 - LinkedIn: [Samrood Ali](https://www.linkedin.com/in/samrood-ali/)
 
-👤 **Author2**
-
-- Github: [@Leon-Mbegera](https://github.com/Leon-Mbegera)
-- Linkedin: [leon mbegera](https://www.linkedin.com/in/leon-mbegera-053991174/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -54,9 +50,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Mohammed Awad for the design
+- Microverse
 
 ## 📝 License
 
