@@ -2,7 +2,7 @@
 
 # Newsweek Website
 
-This is Zattix, a musical instruments e-commerce as part of the capstone project from Microverse. This is built using HTML and CSS.
+This is a clone of the newsweek clone we made as part of the Microverse curriculum.
 
 ![screenshot](./assets/screenshot.png)
 
